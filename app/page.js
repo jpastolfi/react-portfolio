@@ -12,6 +12,7 @@ import web3 from '../public/web3.png'
 import web4 from '../public/web4.png'
 import web5 from '../public/web5.png'
 import web6 from '../public/web6.png'
+import tasklist from '../public/not-your-ordinary-task-list.jpeg'
 import { useState } from 'react'
 
 
@@ -109,12 +110,13 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-          <div className='basis-1/3 flex-1'><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/></div>
-          <div className='basis-1/3 flex-1'><Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/></div>
-          <div className='basis-1/3 flex-1'><Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/></div>
-          <div className='basis-1/3 flex-1'><Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/></div>
-          <div className='basis-1/3 flex-1'><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/></div>
-          <div className='basis-1/3 flex-1'><Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/></div>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center justify-center'>
+            <Image src={tasklist} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/to-do-list-crud' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+              <a href='https://to-do-list-crud-one.vercel.app/' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Website</a>
+            </div>
+          </div>
           </div>
         </section>
       </main>
