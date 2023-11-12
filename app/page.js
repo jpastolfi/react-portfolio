@@ -6,19 +6,12 @@ import devpic from '../public/dev-pic.jpeg'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
 import tasklist from '../public/not-your-ordinary-task-list.jpeg'
 import { useState } from 'react'
 
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  console.log(darkMode.toString());
   return (
     <div className={darkMode && 'dark'}>
       <main className='bg-white-950 px-10 md-px-20 lg:px-40 dark:bg-gray-950'>
@@ -27,7 +20,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons dark:text-gray-100'>developed by jp</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick = {() => setDarkMode(!darkMode)}className='cursor-pointer text-2xl dark:text-gray-200' /></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="/João Astolfi CV.pdf" download="Joao Astolfi CV" target="_blank" rel="nonreferrer">Download Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
