@@ -8,6 +8,8 @@ import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
 import tasklist from '../public/not-your-ordinary-task-list.jpeg'
+import nodejs from '../public/node_js.jpeg'
+import csharp from '../public/c_sharp.png'
 import { useState } from 'react'
 
 
@@ -104,6 +106,34 @@ export default function Home() {
              <div className='flex justify-evenly mt-3 w-full'>
               <a href='https://github.com/jpastolfi/to-do-list-crud' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
               <a href='https://to-do-list-crud-one.vercel.app/' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Website</a>
+            </div>
+          </div>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>NodeJS API for a blog</ h1>
+            <Image src={nodejs} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/futebol-clube' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+            </div>
+          </div>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>NodeJS API for soccer matches</ h1>
+            <Image src={nodejs} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/blogs-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+            </div>
+          </div>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>C# API for a recipe application</ h1>
+            <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/c-sharp-api-de-receitas' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+            </div>
+          </div>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>C# Console application simulating a game shop</ h1>
+            <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/c-sharp-games-console' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
           </div>
