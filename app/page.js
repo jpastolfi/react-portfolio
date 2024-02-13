@@ -23,7 +23,7 @@ export default function Home() {
             {/* <h1 className='text-xl font-burtons dark:text-gray-100'>developed by me</h1> */}
             <ul className='flex items-center justify-between'>
               <li><BsFillMoonStarsFill onClick = {() => setDarkMode(!darkMode)}className='cursor-pointer text-2xl dark:text-gray-200' /></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="/João Astolfi CV.pdf" download="Joao Astolfi CV" target="_blank" rel="nonreferrer">Download CV</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="/João Pedro Astolfi CV.pdf" download="Joao Pedro Astolfi CV" target="_blank" rel="nonreferrer">Download CV</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
