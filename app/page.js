@@ -29,7 +29,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>João Astolfi</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-200'>Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200'>Hi there! I am a fullstack developer mainly focused in React and Node.js, but I'm currently studying Java and C#.</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200'>Hi there! I am a fullstack developer focused in React, Node.js and .Net.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <a href='https://www.linkedin.com/in/jpastolfi/' target='_blank'><AiFillLinkedin /></a>
@@ -53,9 +53,6 @@ export default function Home() {
               <li><span className='font-bold text-teal-600'>Front-end development:</span> React, including components, events and state, controlled components, lifecycle, router, tests with RTL, Redux, context API and React hooks.</li><br></br>
               <li><span className='font-bold text-teal-600'>Back-end development:</span> Docker, MySQL, Node.js & Express, unit and integration testing w/ Mocha, Chai and Sinon, Typescript, layered architecture, REST, JWT, ORM with Sequelize, deployment, OOP and SOLID principles</li>
             </ol>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              Currently I'm studying Java and C#, mainly focused in Spring Boot and ASP .Net, respectively.
-            </p>
           </div>
           <h3 className='text-3xl py-1 text-teal-600 dark:text-teal-600'>What you can expect from me</h3>
           <div className='lg:flex gap-10'>  
