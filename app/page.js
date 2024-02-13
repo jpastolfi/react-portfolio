@@ -101,6 +101,20 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>Hotel managing API made using .Net, Entity Framework, MySQL, Docker and JWT</ h1>
+            <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/hotel-manager-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+            </div>
+          </div>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>Former monolithic .Net API converted to a microservice one</ h1>
+            <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/bets-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+            </div>
+          </div>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
             <h1 className='mb-3'>Task list</ h1>
             <Image src={tasklist} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
