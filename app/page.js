@@ -10,6 +10,7 @@ import consulting from '../public/consulting.png'
 import tasklist from '../public/not-your-ordinary-task-list.jpeg'
 import nodejs from '../public/node_js.jpeg'
 import csharp from '../public/c_sharp.png'
+import blazor_blog from '../public/blazor_blog.jpeg'
 import { useState } from 'react'
 
 
@@ -97,6 +98,13 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>Fullstack application made using Blazor, .Net, Entity Framework, MySQL, Docker</ h1>
+            <Image src={blazor_blog} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/blazor-blog' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+            </div>
+          </div>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
             <h1 className='mb-3'>Hotel managing API made using .Net, Entity Framework, MySQL, Docker and JWT</ h1>
             <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
