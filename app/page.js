@@ -11,6 +11,7 @@ import tasklist from '../public/not-your-ordinary-task-list.jpeg'
 import nodejs from '../public/node_js.jpeg'
 import csharp from '../public/c_sharp.png'
 import blazor_blog from '../public/blazor_blog.jpeg'
+import java_spring from '../public/java-spring.png'
 import { useState } from 'react'
 
 
@@ -52,7 +53,8 @@ export default function Home() {
             <ol className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               <li><span className='font-bold text-teal-600'>Basics on web development:</span> Unix & Bash, Git, HTML & CSS, JS & DOM, Unit Testing</li><br></br>
               <li><span className='font-bold text-teal-600'>Front-end development:</span> React, including components, events and state, controlled components, lifecycle, router, tests with RTL, Redux, context API and React hooks.</li><br></br>
-              <li><span className='font-bold text-teal-600'>Back-end development:</span> Docker, MySQL, Node.js & Express, unit and integration testing w/ Mocha, Chai and Sinon, Typescript, layered architecture, REST, JWT, ORM with Sequelize, deployment, OOP and SOLID principles</li>
+              <li><span className='font-bold text-teal-600'>Back-end development:</span> Docker, MySQL, Node.js & Express, JWT, ORM with Sequelize, unit and integration testing w/ Mocha, Chai and Sinon, Typescript. .Net Core, Asp .Net, unit testing with xUnit</li>
+              <li><span className='font-bold text-teal-600'>Other tools and principles:</span> Layered architecture, REST, deployment, OOP and SOLID principles</li>
             </ol>
           </div>
           <h3 className='text-3xl py-1 text-teal-600 dark:text-teal-600'>What you can expect from me</h3>
@@ -98,6 +100,13 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
+            <h1 className='mb-3'>API for managing and monitoring farms and crops ma deusing Java, Spring Boot, Spring JPA, Hibernate, MySQL and Docker</ h1>
+            <Image src={java_spring} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
+             <div className='flex justify-evenly mt-3 w-full'>
+              <a href='https://github.com/jpastolfi/farm-and-crop-management-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+            </div>
+          </div>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
             <h1 className='mb-3'>Fullstack application made using Blazor, .Net, Entity Framework, MySQL, Docker</ h1>
             <Image src={blazor_blog} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
