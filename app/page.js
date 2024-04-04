@@ -31,7 +31,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>João Astolfi</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-200'>Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200'>Hi there! I am a fullstack developer focused in React, Node.js and .Net.</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200'>Hi there! I am a fullstack developer focused in React, Node.js, .Net and Java.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <a href='https://www.linkedin.com/in/jpastolfi/' target='_blank'><AiFillLinkedin /></a>
@@ -53,7 +53,7 @@ export default function Home() {
             <ol className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               <li><span className='font-bold text-teal-600'>Basics on web development:</span> Unix & Bash, Git, HTML & CSS, JS & DOM, Unit Testing</li><br></br>
               <li><span className='font-bold text-teal-600'>Front-end development:</span> React, including components, events and state, controlled components, lifecycle, router, tests with RTL, Redux, context API and React hooks.</li><br></br>
-              <li><span className='font-bold text-teal-600'>Back-end development:</span> Docker, MySQL, Node.js & Express, JWT, ORM with Sequelize, unit and integration testing w/ Mocha, Chai and Sinon, Typescript. .Net Core, Asp .Net, unit testing with xUnit</li>
+              <li><span className='font-bold text-teal-600'>Back-end development:</span> Docker, MySQL, Node.js & Express, JWT, ORM with Sequelize, unit and integration testing w/ Mocha, Chai and Sinon, Typescript. .Net Core, Asp .Net, unit testing with xUnit. Spring Framework, Hibernate, testing with JUnit, Mockito, H2 and TestContainers</li>
               <li><span className='font-bold text-teal-600'>Other tools and principles:</span> Layered architecture, REST, deployment, OOP and SOLID principles</li>
             </ol>
           </div>
@@ -101,10 +101,10 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>API for managing and monitoring farms and crops ma deusing Java, Spring Boot, Spring JPA, Hibernate, MySQL and Docker</ h1>
+            <h1 className='mb-3'>API for managing and monitoring farms and crops made using Java, Spring Boot, Spring Web, Spring Data, Hibernate, MySQL and Docker</ h1>
             <Image src={java_spring} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
-              <a href='https://github.com/jpastolfi/farm-and-crop-management-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+              <a href='https://github.com/jpastolfi/farm-and-crop-management-api-fase-b' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
