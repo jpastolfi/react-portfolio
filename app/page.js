@@ -100,68 +100,55 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>API for managing and monitoring farms and crops made using Java, Spring Boot, Spring Web, Spring Data, Hibernate, MySQL and Docker</ h1>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex text-center'>
+            <h1 className='mb-3'>Restful API created using Java, Spring and JUnit. Composed of three entities used for the management of farms, crops and fertilisers, including one-to-many and many-to-many associations, GET, POST, PUT and DELETE methods, authentication and authorization using JWT.</ h1>
             <Image src={java_spring} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
-              <a href='https://github.com/jpastolfi/farm-and-crop-management-api-fase-b' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
+              <a href='https://github.com/jpastolfi/farm-management-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
-          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>Fullstack application made using Blazor, .Net, Entity Framework, MySQL, Docker</ h1>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex text-center'>
+            <h1 className='mb-3'>Fullstack application of a blog using several Blazor and ASP .Net Core concepts, including but not limited to authorization, entity framework and conditional rendering.</ h1>
             <Image src={blazor_blog} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
               <a href='https://github.com/jpastolfi/blazor-blog' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>Hotel managing API made using .Net, Entity Framework, MySQL, Docker and JWT</ h1>
+            <h1 className='mb-3'>RESTful API with CRUD operations for managing hotel bookings, including Nominatim geo location to work with geographical location and positioning.</ h1>
             <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
               <a href='https://github.com/jpastolfi/hotel-manager-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
-          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>Former monolithic .Net API converted to a microservice one</ h1>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex text-center'>
+            <h1 className='mb-3'>RESTful API of a sports bets website. The main goal of this project was to migrate an already implemented API from a monolithic architecture to a microservice one, using Docker to divide the application based on its entities.
+</ h1>
             <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
               <a href='https://github.com/jpastolfi/bets-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>Task list</ h1>
+            <h1 className='mb-3'>Task list created using React, JavaScript and Supabase</ h1>
             <Image src={tasklist} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
               <a href='https://github.com/jpastolfi/to-do-list-crud' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
               <a href='https://to-do-list-crud-one.vercel.app/' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Website</a>
             </div>
           </div>
-          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>NodeJS API for a blog</ h1>
+          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex text-center '>
+            <h1 className='mb-3'>NodeJS API for a blog made based on Google's <a href='https://developers.google.com/blogger'>Blogger</a>. Developed using Node.Js, Express, JWT and Sequelize</ h1>
             <Image src={nodejs} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
               <a href='https://github.com/jpastolfi/futebol-clube' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
           <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>NodeJS API for soccer matches</ h1>
+            <h1 className='mb-3'>RESTful API with CRUD operations for a soccer league championship developed using Node.Js and Express.</ h1>
             <Image src={nodejs} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
              <div className='flex justify-evenly mt-3 w-full'>
               <a href='https://github.com/jpastolfi/blogs-api' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
-            </div>
-          </div>
-          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>C# API for a recipe application</ h1>
-            <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
-             <div className='flex justify-evenly mt-3 w-full'>
-              <a href='https://github.com/jpastolfi/c-sharp-api-de-receitas' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
-            </div>
-          </div>
-          <div className='bg-white p-5 rounded-lg basis-1/3 flex-1 flex-col items-center flex'>
-            <h1 className='mb-3'>C# Console application simulating a game shop</ h1>
-            <Image src={csharp} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' alt='image'/>
-             <div className='flex justify-evenly mt-3 w-full'>
-              <a href='https://github.com/jpastolfi/c-sharp-games-console' target="_blank" className='bg-teal-600 text-white font-bold py-2 px-4 rounded'>Github</a>
             </div>
           </div>
           </div>
